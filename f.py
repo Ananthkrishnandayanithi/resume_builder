@@ -597,7 +597,7 @@ def combined_validation(final_output, sections):
         return response.text if response else ""
     except Exception as e:
         raise ValueError(f"Error generating LaTeX content: {str(e)}")
-
+    #done commit
 
 
 # Step 5: Flask route to process a specific section
